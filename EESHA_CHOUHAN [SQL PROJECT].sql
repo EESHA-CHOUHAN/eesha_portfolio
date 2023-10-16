@@ -14,7 +14,7 @@ CREATE TABLE CARS_DATA4 (
     seats INTEGER
 );
 ------------------------------------------------------------------------------------
-
+#To Import csv file..
 "\\copy public.cars_data4 (name, year, selling_price, km_driven, fuel, seller_type, transmission, owner, mileage, engine, max_power, torque, seats) 
 FROM 'C:/Users/eesha/DOWNLO~1/CARDEK~1.CSV' DELIMITER ',' CSV HEADER ;"
 
